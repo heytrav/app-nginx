@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER Travis Holton <travis@ideegeo.com>
+FROM ubuntu:latest
+MAINTAINER Travis Holton <wtholton@gmail.com>
 
 RUN \
   apt-get -qq update && \
