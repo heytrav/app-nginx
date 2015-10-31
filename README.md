@@ -1,2 +1,2 @@
-# api-nginx
-Nginx container for the api
+# app-nginx
+Nginx container for sample django app

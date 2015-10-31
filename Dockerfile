@@ -15,8 +15,8 @@ RUN \
   ln -sf /dev/stderr /var/log/nginx/error.log && \
   echo "\ndaemon off;" >> /etc/nginx/nginx.conf && \
   rm /etc/nginx/sites-enabled/default && \
-  ln -s /etc/nginx/sites-available/api.iwantmyname.conf \
-    /etc/nginx/sites-enabled/api.iwantmyname.conf
+  ln -s /etc/nginx/sites-available/app.conf \
+    /etc/nginx/sites-enabled/app.conf
 
 ADD supervisord.conf /etc/supervisor/conf.d/
 WORKDIR /usr/local
