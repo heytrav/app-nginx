@@ -1,2 +1,2 @@
 # app-nginx
-Nginx container for sample django app
+nginx setup for sample django app in docker
