@@ -9,6 +9,7 @@ RUN \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 ADD nginx /etc/nginx/
+ADD static  /www/data
 RUN \
   ln -sf /dev/stdout /var/log/nginx/access.log && \
   ln -sf /dev/stderr /var/log/nginx/error.log && \
